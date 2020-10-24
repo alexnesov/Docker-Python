@@ -12,3 +12,7 @@ Go in the required folder (in my case here, the one containing ```flask_example.
 <li><code>python:3.7</code> is a name of python container image stored at docker-hub. It is called an "official python image".
 <li><code>bash</code> launches a linux shell.
 </ul>
+
+
+![alt-text](screencaps/bind\ mounting.PNG)
+

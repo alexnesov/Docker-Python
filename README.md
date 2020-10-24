@@ -14,5 +14,5 @@ Go in the required folder (in my case here, the one containing ```flask_example.
 </ul>
 
 
-![alt-text](screencaps/bind mounting.PNG)
+![alt-text](screencaps/bind_mounting.png)
 

@@ -13,6 +13,8 @@ Go in the required folder (in my case here, the one containing ```flask_example.
 <li><code>bash</code> launches a linux shell.
 </ul>
 
+</br>
+We see indeed that we've got the contents of the sub-folder where we were located at when we created the container thourgh the complete command above:
 
 ![alt-text](screencaps/bind_mounting.png)
 

@@ -32,8 +32,8 @@ The same with our Django project, but on port 8000: </br>
 </br>
 <code>docker run -it --name jupyter-data1 \ </code></br>
 <code>-p 8888:8888 \ </code></br>
-<code>-v ${PWD}:/home/jovyan/work \</code></br>
-<code>-e JUPYTER_ENABLE_LAB-yes \</code></br>
+<code>-v ${PWD}:/home/jovyan/work \ </code></br>
+<code>-e JUPYTER_ENABLE_LAB-yes \ </code></br>
 <code>jupyter/datascience-notebook</code></br>
 </br>
 <code>docker start -ia jupyter-data1</code> </br>

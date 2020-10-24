@@ -22,3 +22,6 @@ We see indeed that we've got the contents of the sub-folder where we were locate
 <code>export FLASK_DEBUG=1 </code></br>
 <code>flask run --host=0.0.0.0</code> </br>
 </code>
+
+Now go on <code>localhost:5000</code> or <code>0.0.0.0:5000</code></br>
+try also <code>localhost:5000/version</code>

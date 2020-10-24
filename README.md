@@ -1,8 +1,8 @@
 <H4> Launching a Python Flask runtime container</H4>
 
-Go in the required folder (in my case here, the one containing ```flask_example.py```:
+Go in the required folder (in my case here, the one containing ```flask_example.py```):
 
-```docker run -it --name myflask1 -p 5000:5000
+```docker run -it --name myflask1 -p 5000:5000```
 
 
 ```docker run``` simply start a new container

@@ -18,8 +18,7 @@ We see indeed that we've got the contents of the sub-folder where we were locate
 
 ![alt-text](screencaps/bind_mounting.png)
 
-<code>
-export FLASK_APP=flask_example.py </br>
-export FLASK_DEBUG=1 </br>
-flask run --host=0.0.0.0 </br>
+<code>export FLASK_APP=flask_example.py </code></br>
+<code>export FLASK_DEBUG=1 </code></br>
+<code>flask run --host=0.0.0.0</code> </br>
 </code>

@@ -29,13 +29,12 @@ try also <code>localhost:5000/version</code>
 
 The same with our Django project, but on port 8000: </br>
 ```docker run -it --name mydjango1 -p 8000:8000 -v ${PWD}:/app python:3.7 bash```
-<code>
-docker run -it --name jupyter-data1 \
--p 8888:8888 \
--v ${PWD}:/home/jovyan/work \
--e JUPYTER_ENABLE_LAB-yes \
-jupyter/datascience-notebook
-</code>
+</br>
+<code>docker run -it --name jupyter-data1 \ </code></br>
+<code>-p 8888:8888 \ </code></br>
+<code>-v ${PWD}:/home/jovyan/work \</code></br>
+<code>-e JUPYTER_ENABLE_LAB-yes \</code></br>
+<code>jupyter/datascience-notebook</code></br>
 </br>
 <code>docker start -ia jupyter-data1</code> </br>
 <code>docker rm jupyter-data1</code>

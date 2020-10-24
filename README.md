@@ -25,3 +25,7 @@ We see indeed that we've got the contents of the sub-folder where we were locate
 
 Now go on <code>localhost:5000</code> or <code>0.0.0.0:5000</code></br>
 try also <code>localhost:5000/version</code>
+
+
+The same with our Django project, but on port 8000: </br>
+```docker run -it --name mydjango1 -p 8000:8000 -v ${PWD}:/app python:3.7 bash```

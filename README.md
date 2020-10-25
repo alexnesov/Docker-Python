@@ -27,11 +27,11 @@ Now go on <code>localhost:5000</code> or <code>0.0.0.0:5000</code></br>
 try also <code>localhost:5000/version</code>
 
 
-The same with our Django project, but on port 8000: </br>
+<strong>The same with our Django project, but on port 8000: </strong></br>
 ```docker run -it --name mydjango1 -p 8000:8000 -v ${PWD}:/app python:3.7 bash```
 </br>
 
-To run a Jupyter Notebook:
+<strong>To run a Jupyter Notebook:</strong>
 </br>
 <code>docker run -it --name jupyter-data1 \ </code></br>
 <code>-p 8888:8888 \ </code></br>

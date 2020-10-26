@@ -47,4 +47,8 @@ try also <code>localhost:5000/version</code>
 </br>
 In the container:
 ```cd /app``` </br>
-```pip install requirements.txt```
+```pip install requirements.txt```</br>
+``` gunicorn --bind=0.0.0.0:5000 --workers=1 color-boxes:app```</br>i
+Last argument instructs gunicorn to use ```app``` object from ```color-boxes``` modules in current directory to handle incoming requests</br>
+```exit```
+

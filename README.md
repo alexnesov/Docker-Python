@@ -41,3 +41,7 @@ try also <code>localhost:5000/version</code>
 </br>
 <code>docker start -ia jupyter-data1</code> </br>
 <code>docker rm jupyter-data1</code>
+
+<strong>Build and run FLASK REST API Server Container</strong>
+```docker run -it --rm -p 5000:5000 -v ${PWD}:/app python:3 bash```
+

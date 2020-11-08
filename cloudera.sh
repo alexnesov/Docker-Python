@@ -1,3 +1,5 @@
-wget https://archive.cloudera.com/cm6/6.3.1/cloudera-manager-installer.bin
-chmod u+x cloudera-manager-installer.bin
-sudo ./cloudera-manager-installer.bin
+docker run --hostname=quickstart.cloudera --privileged=true -t -i -p 8888:8888 4239cd2958c6 /usr/bin/docker-quickstart
+
+#To run Cloudera Manager
+/home/cloudera/cloudera-manager
+
